@@ -1,0 +1,186 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, footer{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    background-color: #2962A7;
+    background-image: url("wallpaper2.jpg");
+    background-attachment: fixed;
+    height: 303px;
+    color: white;
+}
+.HeaderDesc{
+    color: #D7434F;
+}
+.navbar{
+    background-color:#BBACAF;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar a {
+    color: white;
+    margin-left: 25px;
+}
+.navbar a:hover{
+    background-color: #DAD4E0;
+    color: #58699d;
+}
+h2{
+    color: #385072;
+}
+h5{
+    color: #CB384B;
+}
+.article{
+    display: inline-block;
+    width: 59%;
+    border-left: 5px solid #BBACAF;
+    text-align: justify;
+    margin: 0;
+    padding: 40px;
+    vertical-align: top;
+}
+.fakeimg{
+    object-position: center;
+    width: 70%;
+    background-color: #BBACAF;
+}
+.side{
+    display: inline-block;
+    width: 24%;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+    padding: 5px;
+    vertical-align: top;
+    
+}
+h3{
+    color: #385072;
+}
+a{
+    color: #385072;
+    text-decoration: none;
+}
+aside .fakeimg{
+    background-color: #BBACAF;
+    width: 85%;
+    padding: 5px;
+    height: auto;
+}
+aside .toursnews{
+    background-color: #BBACAF;
+    width: 85%;
+    height: auto;
+    padding: 5px;
+    text-align: left;
+    margin: 5px;
+    font-size: 15px;
+}
+aside .toursnews img{
+    float: left;
+    border-radius: 50%;
+    margin-right: 8px;
+    max-width: 100%; 
+    height: auto;
+}
+aside .fakeimg img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.side .toursnews p a{
+    color: white;
+    font-style: bold;
+}
+.toursnews a:hover {
+    background-color: #DAD4E0;
+    color: #BBACAF;
+}
+.article .fakeimg img{
+    width: 100%;
+    height: auto;
+    margin-left: 0.3%;
+    max-width: 100%;
+}
+.article .fakeimg{
+
+    width: 65%;
+    padding: 3px;
+    height: auto;
+    margin-left: 20%;
+}
+
+.footer h2 {
+    color: #ffffff;
+}
+.footer h5{
+    color: #CB384B;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: #9B847B;
+    background-image: url("footer.jpg");
+    color: white;
+    padding: 8px;
+}
+@media only screen and (max-width: 600px) {
+    .navbar{
+        background-color:#BBACAF;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding-left: 35%;
+        padding-right: 45%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+    .navbar a {
+        color: white;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .side{
+        display: block;
+        width: 100%;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    .article{
+        display: block;
+        width: 100%;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    .article .fakeimg{
+
+        width: 65%;
+        padding: 3px;
+        height: auto;
+        margin-left: 20%;
+    }
+    .footer{
+        width: 100%;
+        text-align: center;
+        background-color: #9B847B;
+        background-image: url("footer.jpg");
+        color: white;
+        max-width: 100%; 
+        margin-top: 10px;
+        padding: 5px;
+    }
+}
+
+
